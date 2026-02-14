@@ -58,13 +58,13 @@ export const Sidebar = () => {
     return (
         <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
             <div>
-                <h1 className="text-4xl font-bold tracking-tight text-slate-100 sm:text-5xl">
+                <h1 className="text-4xl font-display font-bold tracking-tight text-primary sm:text-5xl">
                     <Link href="/">ELENA VANCE</Link>
                 </h1>
-                <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-100 sm:text-xl">
+                <h2 className="mt-3 text-lg font-display font-medium tracking-tight text-slate-100 sm:text-xl">
                     Lead Digital Designer & Creative Strategist
                 </h2>
-                <p className="mt-4 max-w-xs leading-normal text-slate-400">
+                <p className="mt-4 max-w-xs leading-normal font-body text-slate-400">
                     I craft digital experiences that merge editorial elegance with functional precision.
                 </p>
 
@@ -75,8 +75,8 @@ export const Sidebar = () => {
                                 <Link
                                     href={link.href}
                                     className={`group flex items-center py-3 transition-all ${activeSection === link.href.substring(1)
-                                            ? "text-slate-100 font-bold"
-                                            : "text-slate-500 hover:text-slate-100"
+                                        ? "text-slate-100 font-bold"
+                                        : "text-slate-500 hover:text-slate-100"
                                         }`}
                                 >
                                     <span

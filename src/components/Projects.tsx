@@ -59,7 +59,7 @@ export const Projects = () => {
                                 <div className="z-10 sm:order-2 sm:col-span-6">
                                     <h3>
                                         <a
-                                            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-accent focus-visible:text-accent group/link text-base"
+                                            className="inline-flex items-baseline font-display font-medium leading-tight text-slate-200 hover:text-accent focus-visible:text-accent group/link text-base"
                                             href={project.href}
                                             target="_blank"
                                             rel="noreferrer"
@@ -72,7 +72,7 @@ export const Projects = () => {
                                             </span>
                                         </a>
                                     </h3>
-                                    <p className="mt-2 text-sm leading-normal text-slate-400">
+                                    <p className="mt-2 text-sm leading-normal font-body text-slate-400">
                                         {project.description}
                                     </p>
                                     <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">

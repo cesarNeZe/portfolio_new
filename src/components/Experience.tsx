@@ -70,7 +70,7 @@ export const Experience = () => {
                                     {job.date}
                                 </header>
                                 <div className="z-10 sm:col-span-6">
-                                    <h3 className="font-medium leading-snug text-slate-200">
+                                    <h3 className="font-display font-medium leading-snug text-slate-200">
                                         <div>
                                             <a
                                                 className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-accent focus-visible:text-accent group/link text-base"
@@ -90,7 +90,7 @@ export const Experience = () => {
                                             </a>
                                         </div>
                                     </h3>
-                                    <p className="mt-2 text-sm leading-normal text-slate-400">
+                                    <p className="mt-2 text-sm leading-normal font-body text-slate-400">
                                         {job.description}
                                     </p>
                                     <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">

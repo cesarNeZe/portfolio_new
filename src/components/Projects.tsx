@@ -1,4 +1,4 @@
-import React from "react";
+
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
@@ -17,7 +17,7 @@ const projects: ProjectItem[] = [
         href: "#",
         description:
             "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information of each track.",
-        imageSrc: "/projects/project one .png",
+        imageSrc: "/projects/project_1.png",
         tags: ["React", "Express", "Spotify API"],
     },
     {
@@ -25,7 +25,7 @@ const projects: ProjectItem[] = [
         href: "#",
         description:
             "A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.",
-        imageSrc: "/projects/project 2.png",
+        imageSrc: "/projects/project_2.png",
         tags: ["VS Code", "Sublime Text", "Atom"],
     },
     {

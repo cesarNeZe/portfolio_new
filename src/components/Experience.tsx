@@ -52,24 +52,30 @@ export const Experience = () => {
             className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
             aria-label="Work experience"
         >
-            <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-navy/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+            <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-background px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
                 <h2 className="text-sm font-bold uppercase tracking-widest text-primary lg:sr-only">
                     Experience
                 </h2>
             </div>
-            <div>
+            <div className="relative">
+                {/* Continuous vertical line */}
+                <div className="absolute left-[20%] top-2 bottom-4 w-px bg-secondary/20 hidden sm:block"></div>
+
                 <ol className="group/list">
                     {experiences.map((job, index) => (
-                        <li key={index} className="mb-12">
+                        <li key={index} className="mb-12 relative">
+                            {/* Timeline Dot */}
+                            <div className="absolute left-[20%] top-[9px] -translate-x-1/2 w-2 h-2 rounded-full bg-accent z-20 hidden sm:block"></div>
+
                             <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                                <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-light-navy/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                                <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-background/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
                                 <header
-                                    className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-secondary/70 sm:col-span-2"
+                                    className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-secondary/70 sm:col-span-2 pr-8"
                                     aria-label={job.date}
                                 >
                                     {job.date}
                                 </header>
-                                <div className="z-10 sm:col-span-6">
+                                <div className="z-10 sm:col-span-6 pl-4">
                                     <h3 className="font-display font-medium leading-snug text-primary">
                                         <div>
                                             <a
@@ -90,13 +96,13 @@ export const Experience = () => {
                                             </a>
                                         </div>
                                     </h3>
-                                    <p className="mt-2 text-sm leading-normal font-body text-secondary">
+                                    <p className="mt-2 text-sm leading-normal font-body text-secondary ">
                                         {job.description}
                                     </p>
                                     <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
                                         {job.tags.map((tag) => (
                                             <li key={tag} className="mr-1.5 mt-2">
-                                                <div className="flex items-center rounded-full bg-accent/10 px-3 py-1 text-xs font-medium leading-5 text-accent ">
+                                                <div className="flex items-center rounded-full  px-3 py-1 text-xs font-medium leading-5 text-accent ">
                                                     {tag}
                                                 </div>
                                             </li>

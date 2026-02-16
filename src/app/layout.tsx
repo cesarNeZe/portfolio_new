@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${inter.variable} ${oswald.variable} ${playfair.variable} antialiased bg-navy  selection:bg-accent/30 selection:text-white relative`}
+        className={`${inter.variable} ${oswald.variable} ${playfair.variable} antialiased bg-background`}
       >
         <MouseGlow />
         {children}

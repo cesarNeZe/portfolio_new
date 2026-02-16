@@ -59,13 +59,13 @@ export const Sidebar = () => {
         <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
             <div>
                 <h1 className="text-4xl font-display font-bold tracking-tight text-primary sm:text-5xl">
-                    <Link href="/">ELENA VANCE</Link>
+                    <Link href="/">Cesar Zaitoun</Link>
                 </h1>
-                <h2 className="mt-3 text-lg font-display font-medium tracking-tight text-slate-100 sm:text-xl">
-                    Lead Digital Designer & Creative Strategist
+                <h2 className="mt-3 text-lg font-display font-medium tracking-tight text-primary sm:text-xl">
+                    Mid level full stack engineer and web design experience
                 </h2>
-                <p className="mt-4 max-w-xs leading-normal font-body text-slate-400">
-                    I craft digital experiences that merge editorial elegance with functional precision.
+                <p className="mt-4 max-w-xs leading-normal font-body text-secondary">
+                    I build scalable, user-centric applications by combining robust full-stack engineering with a refined eye for interactive design.
                 </p>
 
                 <nav className="nav hidden lg:block" aria-label="In-page jump links">
@@ -75,8 +75,8 @@ export const Sidebar = () => {
                                 <Link
                                     href={link.href}
                                     className={`group flex items-center py-3 transition-all ${activeSection === link.href.substring(1)
-                                        ? "text-slate-100 font-bold"
-                                        : "text-slate-500 hover:text-slate-100"
+                                        ? "text-primary font-bold"
+                                        : "text-secondary/70 hover:text-primary"
                                         }`}
                                 >
                                     <span
@@ -100,7 +100,7 @@ export const Sidebar = () => {
                             href={link.href}
                             target="_blank"
                             rel="noreferrer"
-                            className="block hover:text-slate-100 transition-colors"
+                            className="block hover:text-primary transition-colors"
                             aria-label={`${link.name} (opens in a new tab)`}
                         >
                             <span className="sr-only">{link.name}</span>

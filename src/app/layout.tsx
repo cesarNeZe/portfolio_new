@@ -19,8 +19,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Elena Vance | Digital Designer & Creative Strategist",
-  description: "Portfolio of Elena Vance, a Lead Digital Designer & Creative Strategist.",
+  title: "Cesar Zaitoun | Full Stack Developer & Web Designer",
+  description: "Portfolio of Cesar Zaitoun, a Full Stack Developer & Web Designer.",
 };
 
 export default function RootLayout({
@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${inter.variable} ${oswald.variable} ${playfair.variable} antialiased bg-navy text-slate-400 selection:bg-accent/30 selection:text-white relative`}
+        className={`${inter.variable} ${oswald.variable} ${playfair.variable} antialiased bg-navy  selection:bg-accent/30 selection:text-white relative`}
       >
         <MouseGlow />
         {children}

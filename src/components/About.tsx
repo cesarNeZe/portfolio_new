@@ -8,11 +8,11 @@ export const About = () => {
             aria-label="About me"
         >
             <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-navy/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
-                <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
+                <h2 className="text-sm font-bold uppercase tracking-widest text-primary lg:sr-only">
                     About
                 </h2>
             </div>
-            <div className="text-slate-400 leading-relaxed space-y-4">
+            <div className="text-secondary leading-relaxed space-y-4">
                 <p>
                     Back in 2018, I decided to try my hand at creating custom Tumblr themes
                     and tumbled head first into the rabbit hole of coding and web
@@ -20,21 +20,21 @@ export const About = () => {
                     building software for an{" "}
                     <a
                         href="#"
-                        className="font-medium text-slate-200 hover:text-accent focus-visible:text-accent"
+                        className="font-medium text-primary hover:text-accent focus-visible:text-accent"
                     >
                         advertising agency
                     </a>
                     , a{" "}
                     <a
                         href="#"
-                        className="font-medium text-slate-200 hover:text-accent focus-visible:text-accent"
+                        className="font-medium text-primary hover:text-accent focus-visible:text-accent"
                     >
                         start-up
                     </a>
                     , and a{" "}
                     <a
                         href="#"
-                        className="font-medium text-slate-200 hover:text-accent focus-visible:text-accent"
+                        className="font-medium text-primary hover:text-accent focus-visible:text-accent"
                     >
                         student-led design studio
                     </a>
@@ -45,7 +45,7 @@ export const About = () => {
                     digital experiences at{" "}
                     <a
                         href="#"
-                        className="font-medium text-slate-200 hover:text-accent focus-visible:text-accent"
+                        className="font-medium text-primary hover:text-accent focus-visible:text-accent"
                     >
                         Upstatement
                     </a>{" "}

@@ -2,12 +2,12 @@ import React from "react";
 
 export const Footer = () => {
     return (
-        <footer className="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
+        <footer className="max-w-md pb-16 text-sm text-secondary/70 sm:pb-0">
             <p>
                 Loosely designed in{" "}
                 <a
                     href="https://www.figma.com/"
-                    className="font-medium text-slate-400 hover:text-accent focus-visible:text-accent"
+                    className="font-medium text-secondary hover:text-accent focus-visible:text-accent"
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -16,7 +16,7 @@ export const Footer = () => {
                 and coded in{" "}
                 <a
                     href="https://code.visualstudio.com/"
-                    className="font-medium text-slate-400 hover:text-accent focus-visible:text-accent"
+                    className="font-medium text-secondary hover:text-accent focus-visible:text-accent"
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -25,7 +25,7 @@ export const Footer = () => {
                 . Built with{" "}
                 <a
                     href="https://nextjs.org/"
-                    className="font-medium text-slate-400 hover:text-accent focus-visible:text-accent"
+                    className="font-medium text-secondary hover:text-accent focus-visible:text-accent"
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -34,7 +34,7 @@ export const Footer = () => {
                 and{" "}
                 <a
                     href="https://tailwindcss.com/"
-                    className="font-medium text-slate-400 hover:text-accent focus-visible:text-accent"
+                    className="font-medium text-secondary hover:text-accent focus-visible:text-accent"
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -43,7 +43,7 @@ export const Footer = () => {
                 , deployed with{" "}
                 <a
                     href="https://vercel.com/"
-                    className="font-medium text-slate-400 hover:text-accent focus-visible:text-accent"
+                    className="font-medium text-secondary hover:text-accent focus-visible:text-accent"
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -52,7 +52,7 @@ export const Footer = () => {
                 . All text is set in the{" "}
                 <a
                     href="https://rsms.me/inter/"
-                    className="font-medium text-slate-400 hover:text-accent focus-visible:text-accent"
+                    className="font-medium text-secondary hover:text-accent focus-visible:text-accent"
                     target="_blank"
                     rel="noreferrer"
                 >
